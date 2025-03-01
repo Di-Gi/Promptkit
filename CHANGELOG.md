@@ -2,7 +2,7 @@
 
 All notable changes to Promptkit will be documented in this file.
 
-## [1.0.0] - 2025-03-01
+## [0.1.0] - 2025-03-01
 
 ### Added
 - Initial release of Promptkit
