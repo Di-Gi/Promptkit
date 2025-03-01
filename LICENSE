@@ -120,6 +120,15 @@
           that such additional attribution notices cannot be construed
           as modifying the License.
 
+      (e) Explicit Attribution Requirement. In addition to the obligations
+          specified in Sections 4(a) through 4(d), any distribution or public 
+          display of the Work or Derivative Works, whether in source form, object form,
+          or within a graphical user interface, shall include a clear and prominent
+          attribution to the original authors and copyright holders of the Work.
+          This attribution must appear in a prominent, easily accessible location
+          (for example, on an "About" page or in a dedicated documentation section) 
+          and must accompany the Work in all forms of distribution.
+
       You may add Your own copyright statement to Your modifications and
       may provide additional or different license terms and conditions
       for use, reproduction, or distribution of Your modifications, or
@@ -186,7 +195,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright [2025] [DG]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
