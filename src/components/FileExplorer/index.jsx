@@ -8,7 +8,7 @@ import { Input } from "../ui/input";
 import { Skeleton } from "../ui/skeleton";
 import { useToast } from "../../hooks/useToast";
 import { formatFileSize, formatDate } from "../../lib/utils";
-import BreadcrumbPath from "./BreadcrumbPath";
+import BreadcrumbPath from "./BreadCrumbPath";
 import {
   Folder,
   File,
