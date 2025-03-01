@@ -83,4 +83,4 @@ This project is licensed under the [APACHE LICENSE 2.0](LICENSE). Please review 
 
 ## Contributing
 
-Contributions are welcome! For more information on how to get involved, please see our [CONTRIBUTING Guidelines](CONTRIBUTING).
+Contributions are welcome! For more information on how to get involved, please see our [CONTRIBUTING Guidelines](CONTRIBUTING.md).
