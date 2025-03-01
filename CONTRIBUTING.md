@@ -2,10 +2,6 @@
 
 Thank you for your interest in contributing to PromptKit! This document provides guidelines and instructions for contributing to this project.
 
-## Code of Conduct
-
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to foster an inclusive community.
-
 ## How Can I Contribute?
 
 ### Reporting Bugs
