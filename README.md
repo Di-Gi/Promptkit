@@ -79,7 +79,7 @@ promptkit/
 
 ## License
 
-This project is licensed under the [APACHE LICENSE 2.0](LICENSE.md). Please review the LICENSE.md file for complete details.
+This project is licensed under the [APACHE LICENSE 2.0](LICENSE). Please review the LICENSE file for complete details.
 
 ## Contributing
 
