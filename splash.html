@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      color: white;
+      user-select: none;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 24px;
+      background-color: #2a2a2a;
+      margin-bottom: 20px;
+      font-size: 64px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 10px 0;
+    }
+    p {
+      margin: 0;
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    /* The full-window SVG that draws the glowing border */
+    .border-svg {
+      position: fixed;
+      top: 0; 
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Animated snake-like tracer */
+    .border-svg rect {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.7);
+      stroke-width: 3; 
+      stroke-linecap: round;
+      animation: dash 3s linear infinite;
+      filter: url(#neon-glow);
+    }
+
+    @keyframes dash {
+      0% {
+        stroke-dasharray: 1 399;
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dasharray: 60 340;
+        stroke-dashoffset: -200;
+      }
+      100% {
+        stroke-dasharray: 1 399;
+        stroke-dashoffset: -400;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <defs>
+      <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="100" height="100" />
+  </svg>
+
+  <div class="logo">⌨</div>
+  <h1>PromptKit</h1>
+  <p>Launching application...</p>
+  
+</body>
+</html>
